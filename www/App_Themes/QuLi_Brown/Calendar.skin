@@ -1,0 +1,11 @@
+<asp:Calendar runat="server" BorderColor="White"
+    BorderWidth="1px" NextPrevFormat="FullMonth" 
+    Height="160px"  Width="250px">
+    <SelectedDayStyle BackColor="#333399" ForeColor="White" />
+    <TodayDayStyle BackColor="#CCCCCC" />
+    <OtherMonthDayStyle ForeColor="#999999"/>
+    <NextPrevStyle Font-Bold="True"  Font-Size="11px" ForeColor="#333333" VerticalAlign="Bottom" />
+    <DayHeaderStyle Font-Bold="True" />
+    <TitleStyle BackColor="White" BorderColor="DarkGray" BorderWidth="3px" Font-Bold="True"
+        Font-Size="14px" ForeColor="#333399" />
+</asp:Calendar>

@@ -1,0 +1,21 @@
+<asp:DetailsView runat="server" AutoGenerateRows="False"  CellPadding="2"
+    GridLines="None" Width="100%">
+
+    <CommandRowStyle BackColor="GhostWhite" Font-Bold="True" />    
+    <RowStyle BackColor="White" />
+    <AlternatingRowStyle BackColor="GhostWhite" />
+
+    <FieldHeaderStyle BackColor="GhostWhite" Font-Bold="True" />
+    <HeaderStyle BackColor="GhostWhite" Font-Bold="True" ForeColor="White" />
+    <FooterStyle BackColor="GhostWhite" Font-Bold="True" ForeColor="White" />
+    
+    <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+    <PagerTemplate>
+        <asp:Button ID="Button1" runat="server" Text="Button"></asp:Button>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    </PagerTemplate>
+
+    <EmptyDataTemplate>
+        Нет данных</EmptyDataTemplate>
+    
+</asp:DetailsView>

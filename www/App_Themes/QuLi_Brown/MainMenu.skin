@@ -1,0 +1,28 @@
+<asp:TreeView runat="server" ImageSet="Simple">
+    <SelectedNodeStyle ForeColor="#997711" />
+    <NodeStyle ForeColor="Black" />
+</asp:TreeView>
+
+
+<asp:Menu runat="server" Orientation="Horizontal"
+    ForeColor="Black" BackColor="White" DynamicHorizontalOffset="2" StaticDisplayLevels="1">
+    <StaticMenuStyle BorderColor="#F7F6F3" BorderWidth="2" BorderStyle="Double" />
+    <DynamicMenuStyle BorderColor="#F7F6F3" BorderWidth="2" BorderStyle="Double" />
+    <StaticMenuItemStyle HorizontalPadding="7px" VerticalPadding="2px" />
+    <DynamicMenuItemStyle HorizontalPadding="15px" VerticalPadding="4px" />
+    <StaticSelectedStyle ForeColor="#997711" />
+    <DynamicSelectedStyle ForeColor="#997711" />
+</asp:Menu>
+
+<%--
+<asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"
+    ForeColor="#7C6F57" BackColor="#F7F6F3" DynamicHorizontalOffset="2" StaticDisplayLevels="1">
+    <DynamicMenuStyle BackColor="#F7F6F3" />
+    <StaticMenuItemStyle HorizontalPadding="7px" VerticalPadding="2px" />
+    <DynamicMenuItemStyle HorizontalPadding="15px" VerticalPadding="4px" />
+    <DynamicHoverStyle BackColor="#7C6F57" />
+    <StaticHoverStyle BackColor="#7C6F57" />
+    <StaticSelectedStyle Font-Bold="true" />
+    <DynamicSelectedStyle Font-Bold="true" />
+</asp:Menu>       
+--%>

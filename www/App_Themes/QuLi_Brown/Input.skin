@@ -1,0 +1,3 @@
+<asp:TextBox runat="server" CssClass="InputWord" />
+<asp:Button  runat="server" CssClass="InputWord" />
+<asp:DropDownList runat="server" CssClass="InputWord" />

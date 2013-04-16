@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Login.aspx" title="Авторизованный вход"  description="" >
+    <siteMapNode url="Default.aspx" title="Главная"  description="" />
+    <siteMapNode url="Clients.aspx" title="Клиенты"  description="" />
+    <siteMapNode url="Contacts.aspx" title="Контакты"  description="" />
+    <siteMapNode url="Tasks.aspx" title="Задачи"  description=""/>
+    <siteMapNode url="Activities.aspx" title="Действия"  description=""/>
+    <siteMapNode url="" title="Администрирование"  description="">
+      <siteMapNode url="InfoType.aspx" title="Типы информации"  description=""/>
+      <siteMapNode url="Category.aspx" title="Категории"  description=""/>
+      <siteMapNode url="ActivitieType.aspx" title="Типы активностей"  description=""/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

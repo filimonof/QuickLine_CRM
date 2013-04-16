@@ -1,0 +1,13 @@
+﻿body
+{
+/*	background-color: whitesmoke; */
+	background-color: white; 
+	font-family: Sans-Serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+.table_dot
+{
+	border: dotted thin #666666;
+}

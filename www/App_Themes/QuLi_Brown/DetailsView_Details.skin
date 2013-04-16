@@ -1,0 +1,8 @@
+<asp:DetailsView runat="server" AutoGenerateRows="False" CellPadding="3" GridLines="None" Width="100%">
+    <FieldHeaderStyle BackColor="#fbf6ed" ForeColor="Black" Font-Bold="True" Width="250px" />
+    <RowStyle BackColor="White" />
+    <AlternatingRowStyle BackColor="#fbf6ed" />    
+    <EmptyDataTemplate>
+        Нет данных
+    </EmptyDataTemplate>
+</asp:DetailsView>
